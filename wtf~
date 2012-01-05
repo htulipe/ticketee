@@ -1,6 +1,0 @@
-features/support/paths.rb:14 project_path(Project.find_by_name($1))
-La méthode find_by_name est une méthode qui n'existe pas mais est générée par missing_method!!!
-
-app/view/project/show.html/erb:1 <% title(@project.name, "Projects") %>
-Ce code génère la chaine "{project.name} - Projects - Ticketee". Comment cette chaine se retrouve dans <title /> de la page show? Surtout que dans app/views/layout/application.html.erb on a <title><%= title %></title> qui devrait retourner "Ticketee".
-
